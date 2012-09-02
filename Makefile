@@ -1,10 +1,10 @@
 .PHONY: clean-pyc clean
 
 server:
-	python run.py
+	python wsgi/run.py
 
 build_db:
-	python make_db.py
+	python wsgi/make_db.py
 
 clean:  clean-pyc
 

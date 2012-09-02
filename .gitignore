@@ -1,2 +1,8 @@
 *.pyc
 *.pyo
+*swp
+*~
+lib/
+bin/
+include/
+build/
